@@ -1,0 +1,6 @@
+poems = pd.read_csv("C:/Users/Пользователь/Downloads/poems.csv", encoding='utf-8', header=0)
+print(poems)
+
+poems["splitted_text"] = poems["перевод"].str.split()
+poems
+   
